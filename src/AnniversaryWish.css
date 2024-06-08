@@ -1,0 +1,57 @@
+.anniversary-card {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    z-index: 2;
+    padding: 1.5rem;
+}
+
+.anniversary-card .card-body {
+    padding: 1rem;
+}
+
+.anniversary-card .card-title {
+    font-size: 2rem;
+    /* Adjusted for better readability on smaller screens */
+    margin-bottom: 1rem;
+    color: #e91e63;
+    /* Attractive color */
+}
+
+.anniversary-card .card-text {
+    margin-bottom: 1.5rem;
+    color: #9c27b0;
+    /* Attractive color */
+}
+
+.anniversary-card .btn {
+    font-size: 1.2rem;
+    /* Slightly smaller button text for better fit on mobile */
+    padding: 0.5rem 1rem;
+    /* Adjusted button size */
+    background-color: #e91e63;
+    /* Attractive color */
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.anniversary-card .btn:hover {
+    background-color: #d81b60;
+    /* Hover effect */
+}
+
+@media (max-width: 576px) {
+    .anniversary-card .card-title {
+        font-size: 1.5rem;
+        /* Adjusted for smaller screens */
+    }
+
+    .anniversary-card .btn {
+        font-size: 1rem;
+        /* Adjusted for smaller screens */
+        padding: 0.4rem 0.8rem;
+        /* Adjusted button size for smaller screens */
+    }
+}
