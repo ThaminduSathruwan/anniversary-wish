@@ -1,0 +1,17 @@
+.hearts-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.emoji {
+    position: absolute;
+    color: #ff69b4;
+    /* Hot pink color for emojis */
+    opacity: 0.8;
+    /* Slight transparency for softer effect */
+}
